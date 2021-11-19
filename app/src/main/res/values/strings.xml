@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">AppTurist</string>
+    <string name="title_place">Popayán</string>
+    <string name="description_place">Popayán,2​ oficialmente Asunción de Popayán, es un municipio colombiano, capital del departamento del Cauca. Se encuentra localizado en el valle de Pubenza, entre la Cordillera Occidental y Central al suroccidente del país. Su extensión territorial es de 512 km², su altitud media es de 1760 m sobre el nivel del mar, su precipitación media anual de 1941 mm, su temperatura promedio de 14/19 °C y distancia aproximada de 600 km a Bogotá, capital de Colombia.
+
+Es una de las ciudades más antiguas y mejor conservadas de América, lo que se ve reflejado en su arquitectura y tradiciones religiosas, reconocida por su arquitectura colonial y el cuidado de las fachadas. Popayán tiene uno de los centros históricos coloniales más grandes del país y América, con un total aproximado de 236 manzanas de sector histórico.</string>
+    <string name="location">Ubicación</string>
+    <string name="ubicacion">Departamento Del Cauca</string>
+    <string name="temperature">Temperatura</string>
+    <string name="text_temperature">24.6°C</string>
+    <string name="sitios">Sitios Recomendados</string>
+    <string name="list_sites">
+        <br> • Parque Caldas \n</br>
+        <br> • Centro histórico \n</br>
+        <br> • Iglesia San Francisco\n</br>
+        <br> • Puente el humilladero. \n</br>
+        <br> • Torre del reloj \n</br>
+        <br> • Morro de Tulcán \n</br>
+        <br> • Iglesia la Ermita \n</br>
+        <br> • Pueblito Patojo \n</br>
+    </string>
 </resources>
