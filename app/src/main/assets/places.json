@@ -1,0 +1,69 @@
+[
+  {
+	  
+    "name": "Parque Caldas",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "A su alrededor fueron construidas las casas del sector religioso, gubernamental y de los fundadores.",
+    "sitiosrecomendados": "  • Iglesia de San Francisco.\n  • Puente del Humilladero.\n  • Torre del reloj \n  • Centro histórico.\n  • Morro de Tulcán\n  • Rincón Payanes.\n  • Santuario de Belén\n  • Cerro de la tres cruces.",
+    "urlPicture": "https://i.pinimg.com/originals/54/9e/ba/549eba4590c14f667ed295d452bf7618.jpg"
+
+  },
+
+  {
+
+    "name": "Torre del reloj",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "Construida en el lado contiguo a la catedral Nuestra Señora de la Asunción y a la casa arzobispal.",
+    "sitiosrecomendados": "  • Iglesia de San Fracisco.\n  • Puente del Humilladero.\n  • Parque Caldas \n  • Centro histórico.\n  • Morro de Tulcán\n  • Rincón Payanes.\n  • Santuario de Belén\n  • Cerro de la tres cruces.",
+    "urlPicture": "https://i.pinimg.com/736x/50/fc/93/50fc93678363ea70f45622cd2509baf1.jpg"
+
+  },
+  {
+
+    "name": "Morro de Tulcán",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "El Morro del Tulcán o Pirámide de Tucán es el principal sitio arqueológico de Popayán.",
+    "sitiosrecomendados": "  • Iglesia de San Fracisco.\n  • Puente del Humilladero.\n  • Parque Caldas \n  • Centro histórico.\n  • Torre del reloj.\n  • Rincón Payanes.\n  • Santuario de Belén\n  • Cerro de la tres cruces.",
+    "urlPicture": "https://i1.wp.com/periodicolaultima.com/wp-content/uploads/2021/06/D9bfEjZXUAAyz3E.jpg"
+
+  },
+  {
+
+    "name": "Rincon Payanes",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "Una réplica en miniatura de Popayán.",
+    "sitiosrecomendados": "  • Iglesia de San Fracisco.\n  • Puente del Humilladero.\n  • Parque Caldas \n  • Centro histórico.\n  • Torre del reloj.\n  • Morro de Tulcán.\n  • Santuario de Belén.",
+    "urlPicture": "https://mapio.net/images-p/7277789.jpg"
+
+  },
+  {
+
+    "name": "Santuario de Belén",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "Un buen lugar para apreciar una panorámica de Popayán es la Capilla de Belén, ubicada en el cerro del mismo nombre.",
+    "sitiosrecomendados": "  • Iglesia de San Francisco.\n  • Puente del Humilladero.\n  • Torre del reloj \n  • Centro histórico.\n  • Morro de Tulcán\n  • Rincón Payanes.\n  • Santuario de Belén",
+    "urlPicture": "https://live.staticflickr.com/851/43689060921_64363b8ebd_b.jpg"
+
+  },
+  {
+
+    "name": "Iglesia de San Francisco",
+    "ubicacion": "Popayán-Cauca",
+    "calificacion": "5.0",
+    "temperatura": "24.5",
+    "descripcion": "Es uno de los templos católicos más importantes de Colombia por su estilo barroco tardío neogranadino.",
+    "sitiosrecomendados": "  • Parque Caldas.\n  • Puente del Humilladero.\n  • Torre del reloj \n  • Centro histórico.\n  • Morro de Tulcán\n  • Rincón Payanes.\n  • Santuario de Belén\n  • Cerro de la tres cruces.",
+    "urlPicture": "http://altum.es/wp-content/uploads/2012/03/55.jpg"
+
+  }
+]
