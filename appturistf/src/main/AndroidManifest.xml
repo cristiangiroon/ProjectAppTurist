@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dev.appturist">
+    package="com.dev.appturistf">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,17 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTurist">
         <activity
-            android:name=".detalle.DetalleActivity"
-            android:exported="false" />
-        <activity
-            android:name=".list.ListPlacesActivity"
+            android:name=".main.MainActivity"
             android:exported="true" >
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".bottom.BottomActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom">
+
         </activity>
     </application>
 

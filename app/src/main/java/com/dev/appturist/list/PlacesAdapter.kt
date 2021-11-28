@@ -1,4 +1,4 @@
-package com.dev.appturist
+package com.dev.appturist.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,10 +7,13 @@ import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.dev.appturist.R
+import com.dev.appturist.model.PlaceItem
 import com.squareup.picasso.Picasso
 
 class PlacesAdapter(
-    private val placesList: ArrayList<PlaceItem>
+    private val placesList: ArrayList<PlaceItem>,
+    private val onItemClicked : (PlaceItem)-> Unit
 ) : RecyclerView.Adapter<PlacesAdapter.ViewHolder>() {
 
 
@@ -22,6 +25,7 @@ class PlacesAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val place = placesList[position]
+        holder.itemView.setOnClickListener { onItemClicked(placesList[position]) }
         holder.bind(place)
     }
 

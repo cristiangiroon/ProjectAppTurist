@@ -1,10 +1,14 @@
-package com.dev.appturist
+package com.dev.appturist.list
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dev.appturist.R
+import com.dev.appturist.detalle.DetalleActivity
+import com.dev.appturist.model.Place
+import com.dev.appturist.model.PlaceItem
 import com.google.gson.Gson
 
 class ListPlacesActivity : AppCompatActivity() {
@@ -20,7 +24,7 @@ class ListPlacesActivity : AppCompatActivity() {
 
        // listPlace = createMockPlaces()
         listPlace = loadMockPlaces()
-        placesAdapter = PlacesAdapter(listPlace)
+        placesAdapter = PlacesAdapter(listPlace, onItemClicked = {onPlaceClicked(it)})
 
         placesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
@@ -28,6 +32,12 @@ class ListPlacesActivity : AppCompatActivity() {
             setHasFixedSize(false)
         }
 
+    }
+
+    private fun onPlaceClicked(place: PlaceItem) {
+        val intent = Intent(this, DetalleActivity::class.java)
+        intent.putExtra("place", place)
+        startActivity(intent)
     }
 
     private fun loadMockPlaces(): ArrayList<PlaceItem> {

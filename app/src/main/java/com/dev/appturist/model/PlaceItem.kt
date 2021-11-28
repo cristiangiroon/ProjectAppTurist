@@ -1,7 +1,8 @@
-package com.dev.appturist
+package com.dev.appturist.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class PlaceItem(
     @SerializedName("calificacion")
@@ -18,4 +19,4 @@ data class PlaceItem(
     val urlPicture: String,
     @SerializedName("descripcion")
     val descripcion: String
-)
+): Serializable
