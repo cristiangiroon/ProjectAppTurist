@@ -12,7 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
     </style>
 
     <style name="texto_titulo">
@@ -36,4 +35,13 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/color_text_title</item>
     </style>
+
+    <style name="Theme.AppTurist.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppTurist.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AppTurist.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

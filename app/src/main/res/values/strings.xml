@@ -19,4 +19,7 @@ Es una de las ciudades más antiguas y mejor conservadas de América, lo que se 
         <br> • Iglesia la Ermita \n</br>
         <br> • Pueblito Patojo \n</br>
     </string>
+    <string name="littledescription">La ciudad blanca de Colombia</string>
+    <string name="rating">Calificacion</string>
+    <string name="nav">Atrás</string>
 </resources>

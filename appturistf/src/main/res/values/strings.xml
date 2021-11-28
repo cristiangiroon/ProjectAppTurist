@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TuristApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_place">Popayán</string>
+    <string name="description_place">Popayán,2​ oficialmente Asunción de Popayán, es un municipio colombiano, capital del departamento del Cauca. Se encuentra localizado en el valle de Pubenza, entre la Cordillera Occidental y Central al suroccidente del país. Su extensión territorial es de 512 km², su altitud media es de 1760 m sobre el nivel del mar, su precipitación media anual de 1941 mm, su temperatura promedio de 14/19 °C y distancia aproximada de 600 km a Bogotá, capital de Colombia.
+
+Es una de las ciudades más antiguas y mejor conservadas de América, lo que se ve reflejado en su arquitectura y tradiciones religiosas, reconocida por su arquitectura colonial y el cuidado de las fachadas. Popayán tiene uno de los centros históricos coloniales más grandes del país y América, con un total aproximado de 236 manzanas de sector histórico.</string>
+    <string name="location">Ubicación</string>
+    <string name="ubicacion">Departamento Del Cauca</string>
+    <string name="temperature">Temperatura</string>
+    <string name="text_temperature">24.6°C</string>
+    <string name="sitios">Sitios Recomendados</string>
+    <string name="list_sites">
+        <br> • Parque Caldas \n</br>
+        <br> • Centro histórico \n</br>
+        <br> • Iglesia San Francisco\n</br>
+        <br> • Puente el humilladero. \n</br>
+        <br> • Torre del reloj \n</br>
+        <br> • Morro de Tulcán \n</br>
+        <br> • Iglesia la Ermita \n</br>
+        <br> • Pueblito Patojo \n</br>
+    </string>
+    <string name="littledescription">La ciudad blanca de Colombia</string>
+    <string name="rating">Calificacion</string>
+    <string name="nav">Ver mapa</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="sound">Activar sonido</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Preferencias</string>
+    <string name="title_activity_bottom">bottom_activity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="preferencias">Preferencias</string>
+
+</resources>
