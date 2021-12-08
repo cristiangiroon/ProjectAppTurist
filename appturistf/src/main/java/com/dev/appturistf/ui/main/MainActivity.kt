@@ -1,4 +1,4 @@
-package com.dev.appturistf.main
+package com.dev.appturistf.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.dev.appturistf.R
-import com.dev.appturistf.preference.SettingsFragment
+import com.dev.appturistf.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

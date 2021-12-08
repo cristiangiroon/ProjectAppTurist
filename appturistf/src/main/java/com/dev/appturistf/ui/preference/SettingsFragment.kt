@@ -1,11 +1,11 @@
-package com.dev.appturistf.preference
+package com.dev.appturistf.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.dev.appturistf.R
-import com.dev.appturistf.main.MainActivity
+import com.dev.appturistf.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

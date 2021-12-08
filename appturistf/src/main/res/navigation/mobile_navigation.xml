@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_list"
-        android:name="com.dev.appturistf.list.ListFragment"
+        android:name="com.dev.appturistf.ui.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -19,16 +19,24 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_detail"
-        android:name="com.dev.appturistf.detail.DetailFragment"
+        android:name="com.dev.appturistf.ui.detail.DetailFragment"
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail">
 
         <argument
             android:name="place"
             app:argType="com.dev.appturistf.model.PlaceItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/navigation_preference"
-        android:name="com.dev.appturistf.preference.SettingsFragment"
+        android:name="com.dev.appturistf.ui.preference.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.dev.appturistf.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.dev.appturistf.list
+package com.dev.appturistf.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -31,6 +31,13 @@ class PlacesAdapter(
 
     override fun getItemCount(): Int {
         return placesList.size
+    }
+
+    fun appendItems(newItems: ArrayList<PlaceItem>) {
+        placesList.clear()
+        placesList.addAll(newItems)
+        notifyDataSetChanged()
+
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
