@@ -1,4 +1,4 @@
-package com.dev.appturistf.bottom
+package com.dev.appturistf.ui.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
